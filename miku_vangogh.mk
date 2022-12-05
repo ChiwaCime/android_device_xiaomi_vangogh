@@ -17,6 +17,8 @@ $(call inherit-product, device/xiaomi/vangogh/device.mk)
 PRODUCT_NAME := miku_vangogh
 PRODUCT_DEVICE := vangogh
 PRODUCT_MANUFACTURER := Xiaomi
+BOARD_VENDOR := Xiaomi
+TARGET_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2002J9E
 
