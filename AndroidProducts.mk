@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_vangogh.mk
+    $(LOCAL_DIR)/miku_vangogh.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_vangogh-user \
-    aosp_vangogh-userdebug \
-    aosp_vangogh-eng
+    miku_vangogh-user \
+    miku_vangogh-userdebug \
+    miku_vangogh-eng
