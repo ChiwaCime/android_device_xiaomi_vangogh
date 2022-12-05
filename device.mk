@@ -41,3 +41,10 @@ $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vangogh/vangogh-vendor.mk)
+
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# SoC
+PROCESSOR_MODEL := SM7250 
